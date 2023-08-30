@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style/add-to-card.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-1">
+                <i class="fa fa-bars mx-3" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-1">
+                <a class="text-decoration-none text-dark" href="index.html">
+                    <h6 class="mx-3">HOMES</h6>
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a class=" text-dark text-decoration-none " href="features.html">
+                    <h6 class="mx-3">FEATURES</h6>
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a class=" text-dark text-decoration-none " href="pages.html">
+                    <h6 class="mx-3">PAGES</h6>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <img class="mx-4" src="./Assets/img/logo-dark.png" width="150px" alt="">
+            </div>
+            <div class="col-lg-1">
+                <a class=" text-dark text-decoration-none " href="shop.html">
+                    <h6 class="mx-3">SHOP</h6>
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a class=" text-dark text-decoration-none " href="">
+                    <h6 class="mx-3">EVENT</h6>
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a class=" text-dark text-decoration-none " href="blog.html">
+                    <h6 class="mx-3">BLOG</h6>
+                </a>
+            </div>
+
+            <div class="col-lg-1">
+                <i class="fa fa-search mx-3 " aria-hidden="true"></i>
+
+            </div>
+            <div class="col-lg-1">
+                <i class="fa fa-shopping-cart mx-3" aria-hidden="true" <p id="add">0</p></i>
+
+            </div>
+            <div class="col-lg-1">
+                <i class="fa fa-user-o mx-3" aria-hidden="true"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container overflow-hidden">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+                <h1 class="text-center mt-5 bg-info p-5">Shopping Cart</h1>
+                <table style="background-color:rgb(205, 203, 203);" class="table-  responsive-md ">
+                    <tr>
+
+                        <th class="border text-center bg-light  ">Id</th>
+                        <th class=" border  bg-light text-center">item</th>
+                        <th class="border bg-light text-center">category</th>
+                        <th class="border bg-light text-center">Quaintity</th>
+                        <th class="border bg-light text-center">Unit price</th>
+                        <th class="border bg-light text-center">Total price</th>
+                        <th class="border bg-light text-center">Remove</th>
+                    </tr>
+                    <tbody id="datarow">
+                        <tr>
+                            <td class="border text-center p-2">1</td>
+                            <td class=" border text-center">Sam & Dave </td>
+                            <td class="border text-center">fiction</td>
+                            <td class="border text-center">1</td>
+                            <td class="border text-center">$14.00</td>
+                            <td class="border text-center">$14.00</td>
+                            <td class="border text-center"><button class=" bg-dark text-light rounded-3 ">__</button>
+                            </td>
+                        </tr>
+                        <tr class=" bg-light">
+                            <td class="border text-center p-2">2</td>
+                            <td class=" border text-center">The Assault
+                            </td>
+                            <td class="border text-center">Biogarahfy</td>
+                            <td class="border text-center">2</td>
+                            <td class="border text-center">$19.00</td>
+                            <td class="border text-center">38.00</td>
+                            <td class="border p-3 text-center"><button
+                                    class=" bg-dark text-light rounded-3t">__</button></td>
+                        </tr>
+                        <tr>
+                            <td class="border text-center p-2">3</td>
+                            <td class=" border text-center">
+                                The Carrot Hunt
+                            </td>
+                            <td class="border text-center">History</td>
+                            <td class="border text-center">3</td>
+                            <td class="border text-center">$19.00</td>
+                            <td class="border text-center">57.00</td>
+                            <td class="border text-center"><button class=" bg-dark text-light rounded-3">__</button>
+                            </td>
+                        </tr>
+                        <tr class="bg-light">
+                            <td class="border text-center p-2">4</td>
+                            <td class=" border text-center">
+                                The DARK
+                            </td>
+                            <td class="border text-center">History</td>
+                            <td class="border text-center">4</td>
+                            <td class="border text-center">$20.00</td>
+                            <td class="border text-center">80.00</td>
+                            <td class="border p-3 text-center"><button class=" bg-dark text-light rounded-3">__</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border text-center p-2">5</td>
+                            <td class=" border text-center">
+                                The Journey
+                            </td>
+                            <td class="border text-center">Dream</td>
+                            <td class="border text-center">3</td>
+                            <td class="border text-center">$12.00</td>
+                            <td class="border text-center">36.00</td>
+                            <td class="border text-center"><button class=" bg-dark text-light rounded-3">__</button>
+                            </td>
+                        </tr>
+                        <tr class="bg-light">
+                            <td class="border text-center p-2">6</td>
+                            <td class=" border text-center">
+                                The Night
+
+                            </td>
+                            <td class="border text-center">Horor</td>
+                            <td class="border text-center">2</td>
+                            <td class="border text-center">$22.00</td>
+                            <td class="border text-center">44.00</td>
+                            <td class="border p-3 text-center"><button class=" bg-dark text-light rounded-3">__</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border text-center p-2">7</td>
+                            <td class=" border text-center">
+                                The Summer of
+
+                            </td>
+                            <td class="border text-center">History</td>
+                            <td class="border text-center">2</td>
+                            <td class="border text-center">$24.00</td>
+                            <td class="border text-center">48.00</td>
+                            <td class="border  text-center"><button class=" bg-dark  text-light rounded-3">__</button>
+                            </td>
+                        </tr>
+                        <tr class="bg-light">
+                            <td class="border text-center p-2">8</td>
+                            <td class=" border text-center">
+                                TRIO – Sarah
+                            </td>
+                            <td class="border text-center">History</td>
+                            <td class="border text-center">3</td>
+                            <td class="border text-center">$25.00</td>
+                            <td class="border text-center">75.00</td>
+                            <td class="border p-3 text-center"><button
+                                    class=" bg-dark text-light rounded-3 ">__</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary  text-center ">
+                <h3 class="">Total Quantity</h3>
+            </div>
+            <div class="col-lg-3 fw-bold text-center">
+                <span id="totalQty">20</span>
+            </div>
+            <div class="col-lg-3 text-center fw-bold">
+                <span id="totalPrice">$392.00</span>
+            </div>
+            <div class="col-lg-3 fw-bold text-center">
+                <button id="click" class="btn w-75 p-2 bg-secondary text-light border-dark">Order Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark">
+        <div class="container-fluid mt-5 bg-dark four p-5 ">
+            <div class="row">
+                <div class="col-md-3 text link-light">
+                    <h4 class="text link-light">CONNECT</h4>
+                    <p>2005 Stokes Isle Apt. 896,</p>
+                    <p>Venaville 10010, USA</p>
+                    <p>info@yourdomain.com</p>
+                    <p class="text-warning fw-bold">(+68) 120034509</p>
+                    <i class="fa fa-facebook-official p-4" aria-hidden="true"></i>
+                    <i class="fa fa-twitter p-4" aria-hidden="true"></i>
+                    <i class="fa fa-instagram p-3" aria-hidden="true"></i>
+                    <i class="fa fa-skype p-3" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3 d-flex flex-column two text link-light">
+                    <h4 class="text-light">EXTRA LINKS</h4>
+                    <span>Affiliate Program</span>
+                    <span>Business Services</span>
+                    <span>Education Services</span>
+                    <span>Gift Cards</span>
+                </div>
+                <div class="col-md-3 text link-light">
+                    <h4 class="text-light">YOUR ACCOUNT</h4>
+                    <p>Shop</p>
+                    <p>My Orders</p>
+                    <p>Gift Collections</p>
+                    <p>Purchase Cards</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="col-md-1">
+                    <h4 class="text-light">BEST SELLERS</h4>
+                    <img src="Assets/img/product-21-330x462.jpg" alt="" width="105px">
+                </div>
+                <div class="col-md-2 text-light">
+                    <p>Henry & The Good Dog </p>
+                    <i class="fa fa-star text-danger mx-4" aria-hidden="true"></i>
+                    <i class="fa fa-star text-danger" aria-hidden="true"></i>
+                    <i class="fa fa-star text-danger" aria-hidden="true"></i>
+                    <i class="fa fa-star " aria-hidden="true"></i>
+                    <p class="mx-4 text-warning fw-bold">$49.00 – $60.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-light mt-5 p-5">
+            <div class="row ">
+                <div class="col-md-9">
+                    <img src="Assets/img/payment_01.jpg" alt="">
+                    <img src="Assets/img/payment_02.jpg" alt="">
+                    <img src="Assets/img/payment_03.jpg" alt="">
+                    <img src="Assets/img/payment_04.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <span>© 2018 Auteur. All Right Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shoping.js"></script>
+</body>
+
+</html>
