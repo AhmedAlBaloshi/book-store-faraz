@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+}
+
+.bk-1 {
+    background-image: url(../img/background-02.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.min {
+    margin-top: 650px;
+    font-size: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.spm {
+    font-size: 90px;
+}
+
+.pra:hover {
+    color: red;
+}

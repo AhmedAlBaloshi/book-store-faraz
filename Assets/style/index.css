@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+}
+.one{
+    background-color: #f4f3ec;
+    padding: 80px;
+}
+.min{
+    background-color: #f4f3ec;
+}
+.spn{
+    color: #c5a374;
+}
+.hov:hover{
+    color: red;
+    transition: 2s;
+}
+.two span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+    
+}
+.four{
+    color: #9eabab;
+}

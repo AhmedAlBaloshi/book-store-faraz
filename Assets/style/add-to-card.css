@@ -1,0 +1,19 @@
+* {
+    margin: 0%;
+}
+
+table tr th {
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+table th {
+    background-color: aqua;
+}
+
+table td {
+    border: 2px solid black;
+    width: 200px;
+    font-weight: bold;
+}

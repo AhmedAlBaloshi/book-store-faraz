@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+}
+
+.muslim {
+    background-image: url(../img/pexels-photo-2465877.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.min {
+    background-image: url(../img/single-image-15.jpg);
+    height: 600px;
+    width: 400px;
+}
+
+.four {
+    color: #9eabab;
+}
